@@ -1,0 +1,919 @@
+#Profiles
+############################
+profile.no_effects=No effects
+profile.shadowless_low=Shadowless Low
+profile.shadowless_medium=Shadowless Medium
+profile.shadowless_high=Shadowless High
+profile.low=Low
+profile.medium=Medium
+profile.high=High
+profile.extreme=Extreme
+profile.extremeplus=Extreme+
+
+profile.comment=The "shadowless" profiles are designed for low-performance machines, disregarding the shadows. Traditional profiles slowly add higher quality shadows and more advanced heavy effects. Please experiment with the available options and find the best combination for you.
+
+#About
+#############################
+option.ACERCADE=EzzBoIII Lite
+option.ACERCADE.comment=The light version of the shader is based on the CoYBoIII shader (the Lite version is built on MakeUp v9 and Derivative).
+value.ACERCADE.0=ver.lite.3
+
+#Options
+#############################
+option.SHADOW_CASTING=Shadows
+
+option.SHADOW_DISTANCE_SLIDER=Shadow distance
+value.SHADOW_DISTANCE_SLIDER.0=Short
+value.SHADOW_DISTANCE_SLIDER.1=Medium
+value.SHADOW_DISTANCE_SLIDER.2=Far
+
+option.SHADOW_QTY_SLIDER=Shadow quality
+value.SHADOW_QTY_SLIDER.0=None
+value.SHADOW_QTY_SLIDER.1=Low
+value.SHADOW_QTY_SLIDER.2=Medium
+value.SHADOW_QTY_SLIDER.3=High
+
+option.REFLECTION_SLIDER=Reflection
+value.REFLECTION_SLIDER.0=Off
+value.REFLECTION_SLIDER.1=Flipped image
+value.REFLECTION_SLIDER.2=Raymarching
+
+option.SHADOW_TYPE=Shadow type
+value.SHADOW_TYPE.0=Simple
+value.SHADOW_TYPE.1=Filtered
+
+option.SHADOW_BLUR=Shadow blur intensity
+
+option.COLORED_SHADOW=Colored shadows
+
+option.VOL_LIGHT=Godrays
+value.VOL_LIGHT.0=Disabled
+value.VOL_LIGHT.1=Depth based
+value.VOL_LIGHT.2=Volumetric
+
+option.DOF=Depth of field
+
+option.DOF_STRENGTH=DoF strength
+
+option.DOF_SAMPLES_FACTOR=DoF samples factor
+
+option.AO=Ambient occlusion
+value.AO.0=Off
+value.AO.1=On
+
+option.AOSTEPS=AO sample pairs
+
+option.AO_STRENGTH=AO strength
+
+option.AA_TYPE=Temporal sampling
+value.AA_TYPE.0=Off
+value.AA_TYPE.1=Denoise
+value.AA_TYPE.2=TAA
+value.AA_TYPE.3=Sharp TAA
+
+option.MOTION_BLUR=Motion blur
+option.MOTION_BLUR_STRENGTH=Motion blur strength
+option.MOTION_BLUR_SAMPLES=Motion blur samples
+
+option.VANILLA_WATER=Vanilla like water
+
+option.WATER_TEXTURE=Water texture
+value.WATER_TEXTURE.0=No
+value.WATER_TEXTURE.1=Yes
+
+option.WATER_COLOR_SOURCE=Water color
+value.WATER_COLOR_SOURCE.0=Shader scheme
+value.WATER_COLOR_SOURCE.1=Resource Pack
+
+option.REFLECTION=Reflection
+value.REFLECTION.0=Off
+value.REFLECTION.1=On
+
+option.REFRACTION=Refraction
+value.REFRACTION.0=Off
+value.REFRACTION.1=On
+
+option.SSR_TYPE=Reflection type
+value.SSR_TYPE.0=Flipped image
+value.SSR_TYPE.1=Raymarching
+
+option.SUN_REFLECTION=Sun reflection
+value.SUN_REFLECTION.0=Off
+value.SUN_REFLECTION.1=On
+
+option.CLOUD_REFLECTION=Vol. clouds reflection
+
+option.WAVING=Waving plants
+value.WAVING.0=No
+value.WAVING.1=Yes
+
+option.CHROMA_ABER=Chroma aberration
+value.CHROMA_ABER.0=No
+value.CHROMA_ABER.1=Yes
+option.CHROMA_ABER.comment=Enable BodyCUM effects edit on shader/lib/aberration.glsl
+
+option.CHROMA_ABER_STRENGTH=Chroma aberration strength
+
+option.WATER_ABSORPTION=Water absorption index
+
+option.WATER_TURBULENCE=Waves strength
+value.WATER_TURBULENCE.7.0=Very low
+value.WATER_TURBULENCE.1.75=Low
+value.WATER_TURBULENCE.0.9=Medium
+value.WATER_TURBULENCE.0.5=High
+
+option.COLOR_SCHEME=Color scheme
+value.COLOR_SCHEME.0=Ethereal
+value.COLOR_SCHEME.1=New shoka
+value.COLOR_SCHEME.2=Shoka
+value.COLOR_SCHEME.3=Legacy
+value.COLOR_SCHEME.4=Captain
+value.COLOR_SCHEME.5=Psychedelic
+value.COLOR_SCHEME.6=Cocoa
+value.COLOR_SCHEME.7=Testigo
+value.COLOR_SCHEME.99=Custom
+
+option.LIGHT_SUNSET_COLOR_R=Sunset light R
+option.LIGHT_SUNSET_COLOR_G=Sunset light G
+option.LIGHT_SUNSET_COLOR_B=Sunset light B
+
+option.LIGHT_DAY_COLOR_R=Day light R
+option.LIGHT_DAY_COLOR_G=Day light G
+option.LIGHT_DAY_COLOR_B=Day light B
+
+option.LIGHT_NIGHT_COLOR_R=Night light R
+option.LIGHT_NIGHT_COLOR_G=Night light G
+option.LIGHT_NIGHT_COLOR_B=Night light B
+
+option.ZENITH_SUNSET_COLOR_R=Zenith sunset R
+option.ZENITH_SUNSET_COLOR_G=Zenith sunset G
+option.ZENITH_SUNSET_COLOR_B=Zenith sunset B
+
+option.ZENITH_DAY_COLOR_R=Zenith day R
+option.ZENITH_DAY_COLOR_G=Zenith day G
+option.ZENITH_DAY_COLOR_B=Zenith day B
+
+option.ZENITH_NIGHT_COLOR_R=Zenith night R
+option.ZENITH_NIGHT_COLOR_G=Zenith night G
+option.ZENITH_NIGHT_COLOR_B=Zenith night B
+
+option.HORIZON_SUNSET_COLOR_R=Horizon sunset R
+option.HORIZON_SUNSET_COLOR_G=Horizon sunset G
+option.HORIZON_SUNSET_COLOR_B=Horizon sunset B
+
+option.HORIZON_DAY_COLOR_R=Horizon day R
+option.HORIZON_DAY_COLOR_G=Horizon day G
+option.HORIZON_DAY_COLOR_B=Horizon day B
+
+option.HORIZON_NIGHT_COLOR_R=Horizon night R
+option.HORIZON_NIGHT_COLOR_G=Horizon night G
+option.HORIZON_NIGHT_COLOR_B=Horizon night B
+
+option.WATER_COLOR_R=Water R
+option.WATER_COLOR_G=Water G
+option.WATER_COLOR_B=Water B
+
+option.NV_COLOR_R=Night vision R multiplier
+option.NV_COLOR_G=Night vision G multiplier
+option.NV_COLOR_B=Night vision B multiplier
+
+option.OMNI_TINT_CUSTOM=Omni tint
+
+option.AVOID_DARK_LEVEL=Cave brightness
+
+option.NIGHT_BRIGHT=Night brightness
+
+option.V_CLOUDS=Clouds
+value.V_CLOUDS.0=Vanilla
+value.V_CLOUDS.1=Volumetric static
+value.V_CLOUDS.2=Volumetric dyn.
+
+option.CLOUD_VOL_STYLE=Volumetric cloud style
+value.CLOUD_VOL_STYLE.0=Natural
+value.CLOUD_VOL_STYLE.1=Boxy
+
+option.CLOUD_SPEED=Clouds speed
+value.CLOUD_SPEED.0=Normal
+value.CLOUD_SPEED.1=Time lapse 1
+value.CLOUD_SPEED.2=Time lapse 2
+
+option.END_CLOUDS=Clouds in The End
+
+option.CLOUD_STEPS_AVG=Cloud samples
+
+option.BLOOM=Bloom
+
+option.COLOR_BLINDNESS=Color blindness
+
+option.COLOR_BLIND_MODE=CB type
+value.COLOR_BLIND_MODE.0=Protanopia
+value.COLOR_BLIND_MODE.1=Deuteranopia
+value.COLOR_BLIND_MODE.2=Tritanopia
+
+option.DEBUG_MODE=Debug mode
+
+option.BLOOM_SAMPLES=Bloom sample pairs
+
+option.BLACK_ENTITY_FIX=Black entity BUGFIX
+value.BLACK_ENTITY_FIX.0=Off
+value.BLACK_ENTITY_FIX.1=On
+
+option.FOG_ACTIVE=Fog enabled
+
+option.FOG_ADJUST=Fog intensity
+value.FOG_ADJUST.20.0=No fog
+value.FOG_ADJUST.10.0=Ultra low
+value.FOG_ADJUST.8.0=Very low
+value.FOG_ADJUST.4.0=Low
+value.FOG_ADJUST.2.0=Medium
+value.FOG_ADJUST.1.0=High
+
+option.NETHER_FOG_DISTANCE=Nether fog distance
+value.NETHER_FOG_DISTANCE.0=Render Distance
+value.NETHER_FOG_DISTANCE.1=Vanilla
+
+option.BLOCKLIGHT_TEMP=Blocklight temp
+value.BLOCKLIGHT_TEMP.0=Warmer
+value.BLOCKLIGHT_TEMP.1=Warm
+value.BLOCKLIGHT_TEMP.2=Yellow
+value.BLOCKLIGHT_TEMP.3=Pale yellow
+value.BLOCKLIGHT_TEMP.4=White light
+
+option.sunPathRotation=Sun angle
+
+option.USE_BASIC_SH=Custom dimensions basic shader
+
+option.MATERIAL_GLOSS=Material gloss
+
+option.DYN_HAND_LIGHT=Fake dynamic light
+
+# Aberration and visual effects options
+option.DISTORTION_STRENGTH=Distortion strength
+option.DISTORTION_STRENGTH.comment=Fisheye distortion strength
+
+option.HORIZONTAL_EDGE_STRENGTH=Horizontal edge strength
+option.HORIZONTAL_EDGE_STRENGTH.comment=Horizontal edge distortion strength
+
+option.VERTICAL_EDGE_STRENGTH=Vertical edge strength
+option.VERTICAL_EDGE_STRENGTH.comment=Vertical edge distortion strength
+
+option.CORNER_DISTORT_STRENGTH=Corner distortion strength
+option.CORNER_DISTORT_STRENGTH.comment=Corner distortion strength
+
+option.CIRCULAR_DISTORT_STRENGTH=Circular distortion strength
+option.CIRCULAR_DISTORT_STRENGTH.comment=Circular distortion strength
+
+option.ZOOM=Zoom
+option.ZOOM.comment=Image zoom level
+
+option.NOISE_STRENGTH=Noise strength
+option.NOISE_STRENGTH.comment=Noise strength for bodycam effect
+
+option.FLICKER_STRENGTH=Flicker strength
+option.FLICKER_STRENGTH.comment=Brightness flicker strength
+
+option.SCANLINE_STRENGTH=Scanline strength
+option.SCANLINE_STRENGTH.comment=Scanline effect strength
+
+option.SCANLINE_WIDTH=Scanline width
+option.SCANLINE_WIDTH.comment=Scanline density
+
+option.EXPOSURE=Exposure
+option.EXPOSURE.comment=Exposure level (-ve for darker, +ve for brighter)
+
+option.VIGNETTE_STRENGTH=Vignette strength
+option.VIGNETTE_STRENGTH.comment=Main vignette strength
+
+option.VIGNETTE_RADIUS=Vignette radius
+option.VIGNETTE_RADIUS.comment=Main vignette radius
+
+option.CORNER_VIGNETTE_STRENGTH=Corner vignette strength
+option.CORNER_VIGNETTE_STRENGTH.comment=Corner vignette strength
+
+option.INTENSITY_CAM_SHAKE=Camera shake intensity
+option.INTENSITY_CAM_SHAKE.comment=Camera shake intensity
+
+option.BLACK_STRIPES_WIDTH=Black stripes width
+option.BLACK_STRIPES_WIDTH.comment=Black stripes width
+
+option.BLACK_STRIPES_SOFT=Black stripes softness
+option.BLACK_STRIPES_SOFT.comment=Black stripes edge softness
+
+option.SATURATION=Saturation
+option.SATURATION.comment=Color saturation
+
+option.BRIGHTNESS=Brightness
+option.BRIGHTNESS.comment=Brightness adjustment
+
+option.CONTRAST=Contrast
+option.CONTRAST.comment=Contrast adjustment
+
+option.IMAGE_ROUNDING_RADIUS=Image rounding radius
+option.IMAGE_ROUNDING_RADIUS.comment=Image rounding distortion radius
+
+option.IMAGE_VERTICAL_STRENGTH=Image vertical strength
+option.IMAGE_VERTICAL_STRENGTH.comment=Vertical image rounding strength
+
+option.IMAGE_HORIZONTAL_STRENGTH=Image horizontal strength
+option.IMAGE_HORIZONTAL_STRENGTH.comment=Horizontal image rounding strength
+
+option.IMAGE_ROUND_STRENGTH=Image round strength
+option.IMAGE_ROUND_STRENGTH.comment=Circular image mask strength
+
+option.BLACK_FOV=Black FOV
+option.BLACK_FOV.comment=Black FOV rounding field of view
+
+option.LENS_STRENGTH=Lens strength
+option.LENS_STRENGTH.comment=Lens effect strength
+
+option.MOTION_BLUR_RADIUS=Motion blur radius
+option.MOTION_BLUR_RADIUS.comment=Motion blur (Shake) radius
+
+option.MOTION_BLUR_MOUSE_STRENGTH=Motion blur mouse strength
+option.MOTION_BLUR_MOUSE_STRENGTH.comment=Motion blur (Mouse) strength
+
+option.IMAGE_POSITION=Image position
+value.IMAGE_POSITION.0=Right
+value.IMAGE_POSITION.1=Left
+option.IMAGE_POSITION.comment=AXON.png image position
+
+option.GLITCH_STRENGTH=Glitch strength
+option.GLITCH_STRENGTH.comment=Glitch distortion strength
+
+option.ENABLE_HORIZONTAL_GLITCH=Enable horizontal glitch
+value.ENABLE_HORIZONTAL_GLITCH.0=Off
+value.ENABLE_HORIZONTAL_GLITCH.1=On
+option.ENABLE_HORIZONTAL_GLITCH.comment=Enable horizontal glitch effect
+
+option.HAND_SWAY_STRENGTH=Hand sway strength
+option.HAND_SWAY_STRENGTH.comment=Hand sway strength
+
+option.LENS_FLARE_STRENGTH=Lens flare strength
+option.LENS_FLARE_STRENGTH.comment=Lens flare intensity
+
+option.LENS_FLARE_SCALE=Lens flare scale
+option.LENS_FLARE_SCALE.comment=Lens flare size
+
+option.LENS_FLARE_STREAKS=Lens flare streaks
+option.LENS_FLARE_STREAKS.comment=Number of flare streaks
+
+#Screens
+screen.ADVANCED_SCREEN=Advanced options
+screen.ADVANCED_SCREEN.comment=Set advanced options
+
+screen.COMPATIBILITY_SCREEN=Compatibility
+screen.COMPATIBILITY_SCREEN.comment=Set compatibility options
+
+screen.SHADOWS_SCREEN=Shadows
+screen.SHADOWS_SCREEN.comment=Set shadows options
+
+screen.DOF_SCREEN=Depth of field
+screen.DOF_SCREEN.comment=Set depth of field options
+
+screen.AO_SCREEN=Ambient occlusion
+screen.AO_SCREEN.comment=Set ambient occlusion options
+
+screen.WATER_SCREEN=Water
+screen.WATER_SCREEN.comment=Set water options.
+
+screen.POST_SCREEN=Post effects
+screen.POST_SCREEN.comment=Set post effects options.
+
+# Aberration and visual effects options from aberration.glsl
+option.DISTORTION_STRENGTH=Fisheye distortion
+value.DISTORTION_STRENGTH.0.0=0.0
+value.DISTORTION_STRENGTH.0.1=0.1
+value.DISTORTION_STRENGTH.0.2=0.2
+value.DISTORTION_STRENGTH.0.3=0.3
+value.DISTORTION_STRENGTH.0.4=0.4
+value.DISTORTION_STRENGTH.0.5=0.5
+value.DISTORTION_STRENGTH.0.6=0.6
+value.DISTORTION_STRENGTH.0.7=0.7
+value.DISTORTION_STRENGTH.0.8=0.8
+value.DISTORTION_STRENGTH.0.9=0.9
+value.DISTORTION_STRENGTH.1.0=1.0
+option.DISTORTION_STRENGTH.comment=Fisheye distortion strength for bodycam effect
+
+option.HORIZONTAL_EDGE_STRENGTH=Horizontal edge distortion
+value.HORIZONTAL_EDGE_STRENGTH.0.0=0.0
+value.HORIZONTAL_EDGE_STRENGTH.0.3=0.3
+value.HORIZONTAL_EDGE_STRENGTH.0.6=0.6
+value.HORIZONTAL_EDGE_STRENGTH.0.9=0.9
+value.HORIZONTAL_EDGE_STRENGTH.1.2=1.2
+value.HORIZONTAL_EDGE_STRENGTH.1.5=1.5
+option.HORIZONTAL_EDGE_STRENGTH.comment=Horizontal edge distortion strength
+
+option.VERTICAL_EDGE_STRENGTH=Vertical edge distortion
+value.VERTICAL_EDGE_STRENGTH.0.0=0.0
+value.VERTICAL_EDGE_STRENGTH.0.4=0.4
+value.VERTICAL_EDGE_STRENGTH.0.8=0.8
+value.VERTICAL_EDGE_STRENGTH.1.2=1.2
+value.VERTICAL_EDGE_STRENGTH.1.6=1.6
+option.VERTICAL_EDGE_STRENGTH.comment=Vertical edge distortion strength
+
+option.CORNER_DISTORT_STRENGTH=Corner distortion
+value.CORNER_DISTORT_STRENGTH.0.0=0.0
+value.CORNER_DISTORT_STRENGTH.0.3=0.3
+value.CORNER_DISTORT_STRENGTH.0.6=0.6
+value.CORNER_DISTORT_STRENGTH.0.9=0.9
+value.CORNER_DISTORT_STRENGTH.1.2=1.2
+value.CORNER_DISTORT_STRENGTH.1.5=1.5
+option.CORNER_DISTORT_STRENGTH.comment=Corner distortion strength
+
+option.CIRCULAR_DISTORT_STRENGTH=Circular distortion
+value.CIRCULAR_DISTORT_STRENGTH.0.0=0.0
+value.CIRCULAR_DISTORT_STRENGTH.0.3=0.3
+value.CIRCULAR_DISTORT_STRENGTH.0.6=0.6
+value.CIRCULAR_DISTORT_STRENGTH.0.9=0.9
+value.CIRCULAR_DISTORT_STRENGTH.1.2=1.2
+value.CIRCULAR_DISTORT_STRENGTH.1.5=1.5
+option.CIRCULAR_DISTORT_STRENGTH.comment=Circular distortion strength
+
+option.ZOOM=Zoom level
+value.ZOOM.0.5=0.5
+value.ZOOM.0.6=0.6
+value.ZOOM.0.7=0.7
+value.ZOOM.0.8=0.8
+value.ZOOM.0.9=0.9
+value.ZOOM.1.0=1.0
+value.ZOOM.1.1=1.1
+value.ZOOM.1.2=1.2
+value.ZOOM.1.3=1.3
+value.ZOOM.1.4=1.4
+value.ZOOM.1.5=1.5
+value.ZOOM.1.6=1.6
+value.ZOOM.1.7=1.7
+value.ZOOM.1.8=1.8
+value.ZOOM.1.9=1.9
+value.ZOOM.2.0=2.0
+option.ZOOM.comment=Image zoom level
+
+option.CHROMA_ABER_STRENGTH=Chroma aberration strength
+value.CHROMA_ABER_STRENGTH.0.0=0.0
+value.CHROMA_ABER_STRENGTH.0.0005=0.0005
+value.CHROMA_ABER_STRENGTH.0.001=0.001
+value.CHROMA_ABER_STRENGTH.0.0015=0.0015
+value.CHROMA_ABER_STRENGTH.0.002=0.002
+value.CHROMA_ABER_STRENGTH.0.0025=0.0025
+value.CHROMA_ABER_STRENGTH.0.003=0.003
+value.CHROMA_ABER_STRENGTH.0.0035=0.0035
+value.CHROMA_ABER_STRENGTH.0.004=0.004
+value.CHROMA_ABER_STRENGTH.0.0045=0.0045
+value.CHROMA_ABER_STRENGTH.0.005=0.005
+value.CHROMA_ABER_STRENGTH.0.01=0.01
+value.CHROMA_ABER_STRENGTH.0.015=0.015
+value.CHROMA_ABER_STRENGTH.0.02=0.02
+value.CHROMA_ABER_STRENGTH.0.025=0.025
+value.CHROMA_ABER_STRENGTH.0.03=0.03
+value.CHROMA_ABER_STRENGTH.0.035=0.035
+value.CHROMA_ABER_STRENGTH.0.04=0.04
+value.CHROMA_ABER_STRENGTH.0.045=0.045
+value.CHROMA_ABER_STRENGTH.0.05=0.05
+value.CHROMA_ABER_STRENGTH.0.1=0.1
+value.CHROMA_ABER_STRENGTH.0.15=0.15
+value.CHROMA_ABER_STRENGTH.0.2=0.2
+value.CHROMA_ABER_STRENGTH.0.25=0.25
+value.CHROMA_ABER_STRENGTH.0.3=0.3
+value.CHROMA_ABER_STRENGTH.0.35=0.35
+value.CHROMA_ABER_STRENGTH.0.4=0.4
+value.CHROMA_ABER_STRENGTH.0.45=0.45
+value.CHROMA_ABER_STRENGTH.0.5=0.5
+value.CHROMA_ABER_STRENGTH.0.55=0.55
+value.CHROMA_ABER_STRENGTH.0.6=0.6
+value.CHROMA_ABER_STRENGTH.0.65=0.65
+value.CHROMA_ABER_STRENGTH.0.7=0.7
+value.CHROMA_ABER_STRENGTH.0.75=0.75
+value.CHROMA_ABER_STRENGTH.0.8=0.8
+value.CHROMA_ABER_STRENGTH.0.85=0.85
+value.CHROMA_ABER_STRENGTH.0.9=0.9
+value.CHROMA_ABER_STRENGTH.0.95=0.95
+value.CHROMA_ABER_STRENGTH.1.0=1.0
+value.CHROMA_ABER_STRENGTH.1.05=1.05
+option.CHROMA_ABER_STRENGTH.comment=Chromatic aberration intensity
+
+option.NOISE_STRENGTH=Noise intensity
+value.NOISE_STRENGTH.0.0=0.0
+value.NOISE_STRENGTH.0.01=0.01
+value.NOISE_STRENGTH.0.02=0.02
+value.NOISE_STRENGTH.0.03=0.03
+value.NOISE_STRENGTH.0.04=0.04
+value.NOISE_STRENGTH.0.05=0.05
+value.NOISE_STRENGTH.0.06=0.06
+value.NOISE_STRENGTH.0.07=0.07
+value.NOISE_STRENGTH.0.08=0.08
+value.NOISE_STRENGTH.0.09=0.09
+value.NOISE_STRENGTH.0.1=0.1
+option.NOISE_STRENGTH.comment=Noise strength for bodycam effect
+
+option.FLICKER_STRENGTH=Flicker intensity
+value.FLICKER_STRENGTH.0.0=0.0
+value.FLICKER_STRENGTH.0.01=0.01
+value.FLICKER_STRENGTH.0.02=0.02
+value.FLICKER_STRENGTH.0.03=0.03
+value.FLICKER_STRENGTH.0.04=0.04
+value.FLICKER_STRENGTH.0.05=0.05
+option.FLICKER_STRENGTH.comment=Brightness flicker strength
+
+option.SCANLINE_STRENGTH=Scanline intensity
+value.SCANLINE_STRENGTH.0.0=0.0
+value.SCANLINE_STRENGTH.0.01=0.01
+value.SCANLINE_STRENGTH.0.02=0.02
+value.SCANLINE_STRENGTH.0.03=0.03
+value.SCANLINE_STRENGTH.0.04=0.04
+value.SCANLINE_STRENGTH.0.05=0.05
+value.SCANLINE_STRENGTH.0.06=0.06
+value.SCANLINE_STRENGTH.0.07=0.07
+value.SCANLINE_STRENGTH.0.08=0.08
+value.SCANLINE_STRENGTH.0.09=0.09
+value.SCANLINE_STRENGTH.0.1=0.1
+option.SCANLINE_STRENGTH.comment=Scanline effect strength
+
+option.SCANLINE_WIDTH=Scanline density
+value.SCANLINE_WIDTH.500.0=500.0
+value.SCANLINE_WIDTH.600.0=600.0
+value.SCANLINE_WIDTH.700.0=700.0
+value.SCANLINE_WIDTH.800.0=800.0
+value.SCANLINE_WIDTH.900.0=900.0
+value.SCANLINE_WIDTH.1000.0=1000.0
+value.SCANLINE_WIDTH.1100.0=1100.0
+value.SCANLINE_WIDTH.1200.0=1200.0
+value.SCANLINE_WIDTH.1300.0=1300.0
+value.SCANLINE_WIDTH.1400.0=1400.0
+value.SCANLINE_WIDTH.1500.0=1500.0
+option.SCANLINE_WIDTH.comment=Scanline density
+
+option.EXPOSURE=Exposure
+value.EXPOSURE.-2.0=-2.0
+value.EXPOSURE.-1.5=-1.5
+value.EXPOSURE.-1.0=-1.0
+value.EXPOSURE.-0.5=-0.5
+value.EXPOSURE.0.0=0.0
+value.EXPOSURE.0.5=0.5
+value.EXPOSURE.1.0=1.0
+value.EXPOSURE.1.5=1.5
+value.EXPOSURE.2.0=2.0
+option.EXPOSURE.comment=Exposure level (-ve for darker, +ve for brighter)
+
+option.VIGNETTE_STRENGTH=Vignette intensity
+value.VIGNETTE_STRENGTH.0.0=0.0
+value.VIGNETTE_STRENGTH.0.1=0.1
+value.VIGNETTE_STRENGTH.0.2=0.2
+value.VIGNETTE_STRENGTH.0.3=0.3
+value.VIGNETTE_STRENGTH.0.4=0.4
+value.VIGNETTE_STRENGTH.0.5=0.5
+value.VIGNETTE_STRENGTH.0.6=0.6
+value.VIGNETTE_STRENGTH.0.7=0.7
+value.VIGNETTE_STRENGTH.0.8=0.8
+value.VIGNETTE_STRENGTH.0.9=0.9
+value.VIGNETTE_STRENGTH.1.0=1.0
+option.VIGNETTE_STRENGTH.comment=Main vignette strength
+
+option.VIGNETTE_RADIUS=Vignette radius
+value.VIGNETTE_RADIUS.0.1=0.1
+value.VIGNETTE_RADIUS.0.15=0.15
+value.VIGNETTE_RADIUS.0.2=0.2
+value.VIGNETTE_RADIUS.0.25=0.25
+value.VIGNETTE_RADIUS.0.3=0.3
+value.VIGNETTE_RADIUS.0.35=0.35
+value.VIGNETTE_RADIUS.0.4=0.4
+value.VIGNETTE_RADIUS.0.45=0.45
+value.VIGNETTE_RADIUS.0.5=0.5
+option.VIGNETTE_RADIUS.comment=Main vignette radius
+
+option.CORNER_VIGNETTE_STRENGTH=Corner vignette intensity
+value.CORNER_VIGNETTE_STRENGTH.0.0=0.0
+value.CORNER_VIGNETTE_STRENGTH.0.1=0.1
+value.CORNER_VIGNETTE_STRENGTH.0.2=0.2
+value.CORNER_VIGNETTE_STRENGTH.0.3=0.3
+value.CORNER_VIGNETTE_STRENGTH.0.4=0.4
+value.CORNER_VIGNETTE_STRENGTH.0.5=0.5
+value.CORNER_VIGNETTE_STRENGTH.0.6=0.6
+value.CORNER_VIGNETTE_STRENGTH.0.7=0.7
+value.CORNER_VIGNETTE_STRENGTH.0.8=0.8
+value.CORNER_VIGNETTE_STRENGTH.0.9=0.9
+value.CORNER_VIGNETTE_STRENGTH.1.0=1.0
+option.CORNER_VIGNETTE_STRENGTH.comment=Corner vignette strength
+
+option.INTENSITY_CAM_SHAKE=Camera shake intensity
+value.INTENSITY_CAM_SHAKE.0.0=0.0
+value.INTENSITY_CAM_SHAKE.0.002=0.002
+value.INTENSITY_CAM_SHAKE.0.004=0.004
+value.INTENSITY_CAM_SHAKE.0.006=0.006
+value.INTENSITY_CAM_SHAKE.0.008=0.008
+value.INTENSITY_CAM_SHAKE.0.01=0.01
+option.INTENSITY_CAM_SHAKE.comment=Camera shake intensity
+
+option.BLACK_STRIPES_WIDTH=Black stripes width
+value.BLACK_STRIPES_WIDTH.0.0=0.0
+value.BLACK_STRIPES_WIDTH.0.02=0.02
+value.BLACK_STRIPES_WIDTH.0.04=0.04
+value.BLACK_STRIPES_WIDTH.0.06=0.06
+value.BLACK_STRIPES_WIDTH.0.08=0.08
+value.BLACK_STRIPES_WIDTH.0.1=0.1
+option.BLACK_STRIPES_WIDTH.comment=Black stripes width
+
+option.BLACK_STRIPES_SOFT=Black stripes softness
+value.BLACK_STRIPES_SOFT.0.0=0.0
+value.BLACK_STRIPES_SOFT.0.01=0.01
+value.BLACK_STRIPES_SOFT.0.02=0.02
+value.BLACK_STRIPES_SOFT.0.03=0.03
+value.BLACK_STRIPES_SOFT.0.04=0.04
+value.BLACK_STRIPES_SOFT.0.05=0.05
+option.BLACK_STRIPES_SOFT.comment=Black stripes edge softness
+
+option.SATURATION=Saturation
+value.SATURATION.0.0=0.0
+value.SATURATION.0.2=0.2
+value.SATURATION.0.4=0.4
+value.SATURATION.0.6=0.6
+value.SATURATION.0.8=0.8
+value.SATURATION.1.0=1.0
+value.SATURATION.1.2=1.2
+value.SATURATION.1.4=1.4
+value.SATURATION.1.6=1.6
+value.SATURATION.1.8=1.8
+value.SATURATION.2.0=2.0
+option.SATURATION.comment=Color saturation
+
+option.BRIGHTNESS=Brightness
+value.BRIGHTNESS.-0.5=-0.5
+value.BRIGHTNESS.-0.4=-0.4
+value.BRIGHTNESS.-0.3=-0.3
+value.BRIGHTNESS.-0.2=-0.2
+value.BRIGHTNESS.-0.1=-0.1
+value.BRIGHTNESS.0.0=0.0
+value.BRIGHTNESS.0.1=0.1
+value.BRIGHTNESS.0.2=0.2
+value.BRIGHTNESS.0.3=0.3
+value.BRIGHTNESS.0.4=0.4
+value.BRIGHTNESS.0.5=0.5
+option.BRIGHTNESS.comment=Brightness adjustment
+
+option.CONTRAST=Contrast
+value.CONTRAST.0.5=0.5
+value.CONTRAST.0.6=0.6
+value.CONTRAST.0.7=0.7
+value.CONTRAST.0.8=0.8
+value.CONTRAST.0.9=0.9
+value.CONTRAST.1.0=1.0
+value.CONTRAST.1.1=1.1
+value.CONTRAST.1.2=1.2
+value.CONTRAST.1.3=1.3
+value.CONTRAST.1.4=1.4
+value.CONTRAST.1.5=1.5
+option.CONTRAST.comment=Contrast adjustment
+
+option.IMAGE_ROUNDING_RADIUS=Image rounding radius
+value.IMAGE_ROUNDING_RADIUS.0.1=0.1
+value.IMAGE_ROUNDING_RADIUS.0.5=0.5
+value.IMAGE_ROUNDING_RADIUS.1.0=1.0
+value.IMAGE_ROUNDING_RADIUS.1.5=1.5
+value.IMAGE_ROUNDING_RADIUS.2.0=2.0
+value.IMAGE_ROUNDING_RADIUS.2.5=2.5
+value.IMAGE_ROUNDING_RADIUS.3.0=3.0
+value.IMAGE_ROUNDING_RADIUS.3.5=3.5
+value.IMAGE_ROUNDING_RADIUS.4.0=4.0
+value.IMAGE_ROUNDING_RADIUS.4.5=4.5
+value.IMAGE_ROUNDING_RADIUS.5.0=5.0
+value.IMAGE_ROUNDING_RADIUS.5.5=5.5
+value.IMAGE_ROUNDING_RADIUS.6.0=6.0
+value.IMAGE_ROUNDING_RADIUS.6.5=6.5
+value.IMAGE_ROUNDING_RADIUS.7.0=7.0
+value.IMAGE_ROUNDING_RADIUS.7.5=7.5
+value.IMAGE_ROUNDING_RADIUS.8.0=8.0
+value.IMAGE_ROUNDING_RADIUS.8.5=8.5
+value.IMAGE_ROUNDING_RADIUS.9.0=9.0
+value.IMAGE_ROUNDING_RADIUS.9.5=9.5
+value.IMAGE_ROUNDING_RADIUS.10.0=10.0
+value.IMAGE_ROUNDING_RADIUS.10.5=10.5
+value.IMAGE_ROUNDING_RADIUS.11.0=11.0
+value.IMAGE_ROUNDING_RADIUS.11.3=11.3
+option.IMAGE_ROUNDING_RADIUS.comment=Image rounding distortion radius
+
+option.IMAGE_VERTICAL_STRENGTH=Vertical rounding strength
+value.IMAGE_VERTICAL_STRENGTH.0.0=0.0
+value.IMAGE_VERTICAL_STRENGTH.0.1=0.1
+value.IMAGE_VERTICAL_STRENGTH.0.2=0.2
+value.IMAGE_VERTICAL_STRENGTH.0.3=0.3
+value.IMAGE_VERTICAL_STRENGTH.0.4=0.4
+value.IMAGE_VERTICAL_STRENGTH.0.5=0.5
+value.IMAGE_VERTICAL_STRENGTH.0.6=0.6
+value.IMAGE_VERTICAL_STRENGTH.0.7=0.7
+value.IMAGE_VERTICAL_STRENGTH.0.8=0.8
+value.IMAGE_VERTICAL_STRENGTH.0.9=0.9
+value.IMAGE_VERTICAL_STRENGTH.1.0=1.0
+option.IMAGE_VERTICAL_STRENGTH.comment=Vertical image rounding strength
+
+option.IMAGE_HORIZONTAL_STRENGTH=Horizontal rounding strength
+value.IMAGE_HORIZONTAL_STRENGTH.0.0=0.0
+value.IMAGE_HORIZONTAL_STRENGTH.0.1=0.1
+value.IMAGE_HORIZONTAL_STRENGTH.0.2=0.2
+value.IMAGE_HORIZONTAL_STRENGTH.0.3=0.3
+value.IMAGE_HORIZONTAL_STRENGTH.0.4=0.4
+value.IMAGE_HORIZONTAL_STRENGTH.0.5=0.5
+value.IMAGE_HORIZONTAL_STRENGTH.0.6=0.6
+value.IMAGE_HORIZONTAL_STRENGTH.0.7=0.7
+value.IMAGE_HORIZONTAL_STRENGTH.0.8=0.8
+value.IMAGE_HORIZONTAL_STRENGTH.0.9=0.9
+value.IMAGE_HORIZONTAL_STRENGTH.1.0=1.0
+option.IMAGE_HORIZONTAL_STRENGTH.comment=Horizontal image rounding strength
+
+option.IMAGE_ROUND_STRENGTH=Circular mask strength
+value.IMAGE_ROUND_STRENGTH.0.1=0.1
+value.IMAGE_ROUND_STRENGTH.0.2=0.2
+value.IMAGE_ROUND_STRENGTH.0.3=0.3
+value.IMAGE_ROUND_STRENGTH.0.4=0.4
+value.IMAGE_ROUND_STRENGTH.0.5=0.5
+value.IMAGE_ROUND_STRENGTH.0.6=0.6
+value.IMAGE_ROUND_STRENGTH.0.7=0.7
+value.IMAGE_ROUND_STRENGTH.0.8=0.8
+value.IMAGE_ROUND_STRENGTH.0.9=0.9
+value.IMAGE_ROUND_STRENGTH.1.0=1.0
+value.IMAGE_ROUND_STRENGTH.1.1=1.1
+value.IMAGE_ROUND_STRENGTH.1.2=1.2
+value.IMAGE_ROUND_STRENGTH.1.3=1.3
+value.IMAGE_ROUND_STRENGTH.1.4=1.4
+value.IMAGE_ROUND_STRENGTH.1.5=1.5
+option.IMAGE_ROUND_STRENGTH.comment=Circular image mask strength
+
+option.BLACK_FOV=Black FOV
+value.BLACK_FOV.1.0=1.0
+value.BLACK_FOV.10.0=10.0
+value.BLACK_FOV.20.0=20.0
+value.BLACK_FOV.30.0=30.0
+value.BLACK_FOV.40.0=40.0
+value.BLACK_FOV.50.0=50.0
+value.BLACK_FOV.60.0=60.0
+value.BLACK_FOV.70.0=70.0
+value.BLACK_FOV.80.0=80.0
+value.BLACK_FOV.90.0=90.0
+value.BLACK_FOV.100.0=100.0
+option.BLACK_FOV.comment=Black FOV rounding field of view
+
+option.LENS_STRENGTH=Lens effect strength
+value.LENS_STRENGTH.-0.2=-0.2
+value.LENS_STRENGTH.-0.15=-0.15
+value.LENS_STRENGTH.-0.1=-0.1
+value.LENS_STRENGTH.-0.05=-0.05
+value.LENS_STRENGTH.0.0=0.0
+value.LENS_STRENGTH.0.05=0.05
+value.LENS_STRENGTH.0.1=0.1
+value.LENS_STRENGTH.0.15=0.15
+value.LENS_STRENGTH.0.2=0.2
+value.LENS_STRENGTH.0.25=0.25
+value.LENS_STRENGTH.0.3=0.3
+value.LENS_STRENGTH.0.35=0.35
+value.LENS_STRENGTH.0.4=0.4
+value.LENS_STRENGTH.0.45=0.45
+value.LENS_STRENGTH.0.5=0.5
+option.LENS_STRENGTH.comment=Lens effect strength
+
+option.MOTION_BLUR_RADIUS=Motion blur radius
+value.MOTION_BLUR_RADIUS.0.02=0.02
+value.MOTION_BLUR_RADIUS.0.05=0.05
+value.MOTION_BLUR_RADIUS.0.1=0.1
+value.MOTION_BLUR_RADIUS.0.15=0.15
+value.MOTION_BLUR_RADIUS.0.2=0.2
+value.MOTION_BLUR_RADIUS.0.25=0.25
+value.MOTION_BLUR_RADIUS.0.3=0.3
+value.MOTION_BLUR_RADIUS.0.35=0.35
+value.MOTION_BLUR_RADIUS.0.4=0.4
+value.MOTION_BLUR_RADIUS.0.45=0.45
+value.MOTION_BLUR_RADIUS.0.5=0.5
+option.MOTION_BLUR_RADIUS.comment=Motion blur (Shake) radius
+
+option.MOTION_BLUR_STRENGTH=Motion blur strength
+value.MOTION_BLUR_STRENGTH.0.0011=0.0011
+value.MOTION_BLUR_STRENGTH.0.005=0.005
+value.MOTION_BLUR_STRENGTH.0.01=0.01
+value.MOTION_BLUR_STRENGTH.0.015=0.015
+value.MOTION_BLUR_STRENGTH.0.02=0.02
+value.MOTION_BLUR_STRENGTH.0.025=0.025
+value.MOTION_BLUR_STRENGTH.0.03=0.03
+value.MOTION_BLUR_STRENGTH.0.035=0.035
+value.MOTION_BLUR_STRENGTH.0.04=0.04
+value.MOTION_BLUR_STRENGTH.0.045=0.045
+value.MOTION_BLUR_STRENGTH.0.05=0.05
+option.MOTION_BLUR_STRENGTH.comment=Motion blur (Shake) strength
+
+option.MOTION_BLUR_MOUSE_STRENGTH=Motion blur mouse strength
+value.MOTION_BLUR_MOUSE_STRENGTH.1.0=1.0
+value.MOTION_BLUR_MOUSE_STRENGTH.1.01=1.01
+value.MOTION_BLUR_MOUSE_STRENGTH.1.02=1.02
+value.MOTION_BLUR_MOUSE_STRENGTH.1.03=1.03
+value.MOTION_BLUR_MOUSE_STRENGTH.1.04=1.04
+value.MOTION_BLUR_MOUSE_STRENGTH.1.05=1.05
+value.MOTION_BLUR_MOUSE_STRENGTH.1.1=1.1
+value.MOTION_BLUR_MOUSE_STRENGTH.1.15=1.15
+value.MOTION_BLUR_MOUSE_STRENGTH.1.2=1.2
+value.MOTION_BLUR_MOUSE_STRENGTH.1.25=1.25
+value.MOTION_BLUR_MOUSE_STRENGTH.1.3=1.3
+value.MOTION_BLUR_MOUSE_STRENGTH.1.35=1.35
+value.MOTION_BLUR_MOUSE_STRENGTH.1.4=1.4
+value.MOTION_BLUR_MOUSE_STRENGTH.1.45=1.45
+value.MOTION_BLUR_MOUSE_STRENGTH.1.5=1.5
+value.MOTION_BLUR_MOUSE_STRENGTH.1.55=1.55
+value.MOTION_BLUR_MOUSE_STRENGTH.1.6=1.6
+value.MOTION_BLUR_MOUSE_STRENGTH.1.65=1.65
+value.MOTION_BLUR_MOUSE_STRENGTH.1.7=1.7
+value.MOTION_BLUR_MOUSE_STRENGTH.1.75=1.75
+value.MOTION_BLUR_MOUSE_STRENGTH.1.8=1.8
+value.MOTION_BLUR_MOUSE_STRENGTH.1.85=1.85
+value.MOTION_BLUR_MOUSE_STRENGTH.1.9=1.9
+value.MOTION_BLUR_MOUSE_STRENGTH.1.95=1.95
+value.MOTION_BLUR_MOUSE_STRENGTH.2.0=2.0
+option.MOTION_BLUR_MOUSE_STRENGTH.comment=Motion blur (Mouse) strength
+
+option.IMAGE_POSITION=Image position
+value.IMAGE_POSITION.0=Right
+value.IMAGE_POSITION.1=Left
+option.IMAGE_POSITION.comment=AXON.png image position
+
+option.GLITCH_STRENGTH=Glitch strength
+value.GLITCH_STRENGTH.0.0=0.0
+value.GLITCH_STRENGTH.0.001=0.001
+value.GLITCH_STRENGTH.0.002=0.002
+value.GLITCH_STRENGTH.0.003=0.003
+value.GLITCH_STRENGTH.0.004=0.004
+value.GLITCH_STRENGTH.0.005=0.005
+value.GLITCH_STRENGTH.0.006=0.006
+value.GLITCH_STRENGTH.0.007=0.007
+value.GLITCH_STRENGTH.0.008=0.008
+value.GLITCH_STRENGTH.0.009=0.009
+value.GLITCH_STRENGTH.0.01=0.01
+option.GLITCH_STRENGTH.comment=Glitch distortion strength
+
+option.ENABLE_HORIZONTAL_GLITCH=Horizontal glitch
+value.ENABLE_HORIZONTAL_GLITCH.0=Off
+value.ENABLE_HORIZONTAL_GLITCH.1=On
+option.ENABLE_HORIZONTAL_GLITCH.comment=Enable horizontal glitch effect
+
+option.HAND_SWAY_STRENGTH=Hand sway strength
+value.HAND_SWAY_STRENGTH.0.0=0.0
+value.HAND_SWAY_STRENGTH.0.001=0.001
+value.HAND_SWAY_STRENGTH.0.002=0.002
+value.HAND_SWAY_STRENGTH.0.003=0.003
+value.HAND_SWAY_STRENGTH.0.004=0.004
+value.HAND_SWAY_STRENGTH.0.005=0.005
+value.HAND_SWAY_STRENGTH.0.006=0.006
+value.HAND_SWAY_STRENGTH.0.007=0.007
+value.HAND_SWAY_STRENGTH.0.008=0.008
+value.HAND_SWAY_STRENGTH.0.009=0.009
+value.HAND_SWAY_STRENGTH.0.01=0.01
+option.HAND_SWAY_STRENGTH.comment=Hand sway strength
+
+option.LENS_FLARE_STRENGTH=Lens flare intensity
+value.LENS_FLARE_STRENGTH.0.0=0.0
+value.LENS_FLARE_STRENGTH.0.1=0.1
+value.LENS_FLARE_STRENGTH.0.2=0.2
+value.LENS_FLARE_STRENGTH.0.3=0.3
+value.LENS_FLARE_STRENGTH.0.4=0.4
+value.LENS_FLARE_STRENGTH.0.5=0.5
+value.LENS_FLARE_STRENGTH.0.6=0.6
+value.LENS_FLARE_STRENGTH.0.7=0.7
+value.LENS_FLARE_STRENGTH.0.8=0.8
+value.LENS_FLARE_STRENGTH.0.9=0.9
+value.LENS_FLARE_STRENGTH.1.0=1.0
+option.LENS_FLARE_STRENGTH.comment=Lens flare intensity
+
+option.LENS_FLARE_SCALE=Lens flare scale
+value.LENS_FLARE_SCALE.0.1=0.1
+value.LENS_FLARE_SCALE.0.2=0.2
+value.LENS_FLARE_SCALE.0.3=0.3
+value.LENS_FLARE_SCALE.0.4=0.4
+value.LENS_FLARE_SCALE.0.5=0.5
+option.LENS_FLARE_SCALE.comment=Lens flare size
+
+option.LENS_FLARE_STREAKS=Lens flare streaks
+value.LENS_FLARE_STREAKS.2=2
+value.LENS_FLARE_STREAKS.3=3
+value.LENS_FLARE_STREAKS.4=4
+value.LENS_FLARE_STREAKS.5=5
+value.LENS_FLARE_STREAKS.6=6
+option.LENS_FLARE_STREAKS.comment=Number of flare streaks
+
+screen.LIGHT_SCREEN=Light
+screen.LIGHT_SCREEN.comment=Set light options.
+
+screen.CLOUDS_SCREEN=Sun & clouds
+screen.CLOUDS_SCREEN.comment=Set sun and clouds options.
+
+screen.FOG_SCREEN=Fog
+screen.FOG_SCREEN.comment=Set fog options
+
+screen.MOTION_BLUR_SCREEN=Motion blur
+screen.MOTION_BLUR_SCREEN.comment=Set motion blur options
+
+screen.ACCESIBILITY_SCREEN=Accesibility
+screen.ACCESIBILITY_SCREEN.comment=Set accesibility options
+
+screen.CUSTOM_COLORS_SCREEN=Custom colors
+screen.CUSTOM_COLORS_SCREEN.comment=Set custom colors
+screen.CUSTOM_COLORS_DAY=Day custom colors
+screen.CUSTOM_COLORS_SUNSET=Sunset/dawn custom colors
+screen.CUSTOM_COLORS_NIGHT=Night custom colors
+screen.CUSTOM_COLORS_WATER=Water custom color
+screen.CUSTOM_COLORS_NV=Night vision custom color
+
+screen.ABERRATION_SCREEN=Aberration effects
+screen.ABERRATION_SCREEN.comment=Set aberration and visual effects options
