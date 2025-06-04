@@ -1,2 +1,23 @@
-# EzzBoIII
-Shader minecraft
+Shader Based on ( makeUp v9 and Derevative v91 )
+
+shader creator - syrexskyline ( DureXXX )
+
+Co-creator - Sof04ka 
+
+official MakeUp - https://modrinth.com/shader/makeup-ultra-fast-shaders
+
+official Derivative - https://minecraft-inside.ru/shaders/175398-derivative.html
+
+github - none
+
+MakeUpGithub - https://github.com/javiergcim/MakeUpUltraFast
+
+
+
+Main CoYBoIII shader based on Derivative shader
+
+Lite version CoYBoIII > EzzBoIII based on MakeUpUltraFast
+
+
+
+You can do whatever, whenever, and however you want with the shader.
