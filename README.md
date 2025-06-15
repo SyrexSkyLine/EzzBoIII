@@ -1,4 +1,4 @@
-Shader Based on ( makeUp v9 and Derevative v91 )
+Shader Based on ( makeUp v9 )
 
 shader creator - syrexskyline ( DureXXX )
 
@@ -6,12 +6,7 @@ Co-creator - Sof04ka
 
 official MakeUp - https://modrinth.com/shader/makeup-ultra-fast-shaders
 
-official Derivative - https://minecraft-inside.ru/shaders/175398-derivative.html
-
-github - none
-
 MakeUpGithub - https://github.com/javiergcim/MakeUpUltraFast
-
 
 
 Main CoYBoIII shader based on Derivative shader
