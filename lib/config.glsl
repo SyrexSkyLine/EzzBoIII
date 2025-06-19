@@ -22,6 +22,9 @@ Javier Garduño - GNU Lesser General Public License v3.0
 #define ENTITY_METAL          10400.0  // Metal-like glossy blocks
 #define ENTITY_SAND           10410.0  // Sand-like glossy blocks
 #define ENTITY_FABRIC         10440.0  // Fabric-like glossy blocks
+#define SMOKE_LIGHT_INTENSITY 0.5 // [0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0] 
+#define SMOKE_MODE 1.0 // [0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5]
+//#define SMOKE_FOV_FACTOR 1.0 // [0.0 1.0] BUGGED no RECOMENT
 
 // Other constants
 #define ZENITH_SKY_RAIN_COLOR vec3(.7, .85, 1.0)
