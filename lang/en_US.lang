@@ -16,7 +16,7 @@ profile.comment=The "shadowless" profiles are designed for low-performance machi
 #############################
 option.ACERCADE=EzzBoIII Lite
 option.ACERCADE.comment=The light version of the shader is based on the CoYBoIII shader (the Lite version is built on MakeUp v9 and Derivative).
-value.ACERCADE.0=ver.lite.3
+value.ACERCADE.0=ver.lite.4
 
 #Options
 #############################
@@ -106,6 +106,13 @@ option.CLOUD_REFLECTION=Vol. clouds reflection
 option.WAVING=Waving plants
 value.WAVING.0=No
 value.WAVING.1=Yes
+
+option.SMOKE_MODE=New Light Intensity
+option.SMOKE_MODE.comment=( 0 = old light | 0.3 > 1.5 = new light )
+
+
+option.SMOKE_LIGHT_INTENSITY=NewLight factor (maby not working)
+option.SMOKE_LIGHT_INTENSITY.comment=no working bruh
 
 option.CHROMA_ABER=Chroma aberration
 value.CHROMA_ABER.0=No
